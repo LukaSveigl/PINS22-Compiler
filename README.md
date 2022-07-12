@@ -15,6 +15,14 @@ The compiler can be built using the Makefile provided in the pins22 directory, o
 
 To run the compiler, two command line flags need to be specified, the first being `--target-phase=<phase>`, which specifies up to which compilation phase the source program should be compiled, and the second being `--src-file-name=<file-name>`, which specifies which .pins file should be compiled.
 
+Valid phases are: 
+- lexan
+- synan
+- seman
+- memory
+- imcgen
+- imclin
+
 ---
 
 ## 3. [The compiler](pins22/src/pins/Compiler.java)
